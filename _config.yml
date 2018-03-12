@@ -148,10 +148,10 @@ site_state: true
 # Value before `||` delimeter is the target permalink.
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, globe icon will be loaded.
 social:
-  GitHub: https://github.com/scue
-  E-Mail: mailto:scue@vip.qq.com
-  Weibo: https://weibo.com/scue
-  Douban: https://www.douban.com/people/scue/
+  GitHub: https://github.com/scue || github
+  邮箱: mailto:scue@vip.qq.com || envelope
+  微博: https://weibo.com/scue || weibo
+  豆瓣: https://www.douban.com/people/scue/ || book
   #Google: https://plus.google.com/yourname || google
   #Twitter: https://twitter.com/yourname || twitter
   #FB Page: https://www.facebook.com/yourname || facebook
@@ -163,11 +163,8 @@ social:
 
 social_icons:
   enable: true
-  GitHub: github
-  Weibo: weibo
-  E-Mail: envelope
   icons_only: false
-  transition: true
+  transition: false
   # Dependencies: exturl: true in Tags Settings section below.
   # To encrypt links above use https://www.base64encode.org
   # Example encoded link: `GitHub: aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQ= || github`
