@@ -138,8 +138,8 @@ menu_settings:
 # Schemes
 #scheme: Muse
 #scheme: Mist
-scheme: Pisces
-#scheme: Gemini
+#scheme: Pisces
+scheme: Gemini
 
 
 # ---------------------------------------------------------------
@@ -478,7 +478,7 @@ gitalk:
   repo: gitalk-comments    #仓库名称
   owner: scue    #github用户名
   admin: scue
-  distractionFreeMode: true
+  distractionFreeMode: false
 
 # Disqus
 disqus:
