@@ -55,6 +55,9 @@
       {% endif %}
     </div>
 
+  {% elseif theme.gitalk.distractionFreeMode %}
+    <div id="gitalk-container"></div>
+
   {% elseif theme.valine.enable and theme.valine.appid and theme.valine.appkey %}
     <div class="comments" id="comments">
     </div>

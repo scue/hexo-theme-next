@@ -3,8 +3,8 @@
   {% if theme.gitalk.enable %}  //_config.yml文件若没有添加enable: true可删除该判断
 
     {% if theme.gitalk.distractionFreeMode  %}      
-      <link rel='stylesheet' href="https://yiyeti.cc/usr/themes/veryse/css/gitalk.css">
-      <script src="https://yiyeti.cc/usr/themes/veryse/css/gitalk.min.js"></script>
+      <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+      <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
       <script type="text/javascript">
           var gitalk = new Gitalk({
             clientID:  '{{theme.gitalk.clientID}}', 
